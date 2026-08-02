@@ -1,0 +1,12 @@
+Flask prefab placeholder
+
+This file is a human-readable placeholder for Assets/Prefabs/Flask.prefab.
+It is NOT a valid Unity prefab. Please open the project in Unity and create a
+Prefab at Assets/Prefabs/Flask.prefab with the following components:
+
+- SpriteRenderer (assign Assets/Art/Items/flask.png)
+- Rigidbody2D (Body Type: Dynamic) - set Gravity Scale = 0
+- BoxCollider2D (Is Trigger = true)
+- Flask (script at Assets/Scripts/Flask.cs)
+
+Set the prefab so the Spawner can Instantiate it at runtime.

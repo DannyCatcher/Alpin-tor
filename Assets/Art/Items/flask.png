@@ -1,0 +1,10 @@
+Placeholder flask image (replace with real PNG).
+
+Place your actual bottle PNG at:
+Assets/Art/Items/flask.png
+
+Import settings recommended:
+- Texture Type: Sprite (2D and UI)
+- Filter Mode: Point
+- Compression: None
+- Pixels Per Unit: 32

@@ -1,0 +1,11 @@
+Placeholder player sprite (replace with real pixel art).
+
+This is a placeholder text file named player.png — replace it with an actual PNG
+image. To import into Unity, add a 32x32 or 64x64 PNG at:
+Assets/Art/Characters/alpinator_idle.png
+
+Import settings recommended:
+- Texture Type: Sprite (2D and UI)
+- Filter Mode: Point (no filter)
+- Compression: None
+- Pixels Per Unit: 32
