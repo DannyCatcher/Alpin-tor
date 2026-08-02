@@ -1,0 +1,12 @@
+Czech localization strings (JSON)
+{
+  "title": "ALPINÁTOR VS GIBS",
+  "play": "HRÁT",
+  "leaderboard": "ŽEBŘÍČEK",
+  "about": "O HŘE",
+  "game_over": "KONEC HRY",
+  "your_score": "TVÉ SKÓRE",
+  "save_score": "ULOŽIT SKÓRE",
+  "back_to_menu": "ZPĚT NA MENU",
+  "movement": "POHYB"
+}

@@ -1,0 +1,18 @@
+Playtest notes
+
+After opening this project in Unity 2022.3 LTS (or later):
+1. Ensure the Assets/Scripts folder is present; Unity will compile the scripts.
+2. Import the pixel art PNGs into Assets/Art using the import settings described
+   in Assets/Art/* README files.
+3. Create prefabs for Player and Flask per Assets/Prefabs/* placeholders.
+4. Create a new Scene (File > New Scene) and save as Assets/Scenes/MainScene.unity.
+5. Add the following GameObjects and components (see Assets/Scenes/MainScene-README.txt in repo for more):
+   - Main Camera (add CameraSway component if desired)
+   - GameManager object and assign UI Text references
+   - Spawner object and assign Flask prefab
+   - Player (drag Player prefab into scene)
+   - MissZone (empty GameObject with BoxCollider2D set IsTrigger)
+   - Canvas with HUD Text elements and GameOverPanel
+6. Save Scene and press Play. Tweak Spawner values and PlayerController for desired feel.
+
+If anything is missing or you prefer I actually generate binary .unity/prefab files, let me know — I can attempt to add more complete YAML-style scene/prefab files, but those often need manual fixes after Unity imports.

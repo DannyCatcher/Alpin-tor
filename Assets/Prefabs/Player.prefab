@@ -1,0 +1,13 @@
+Player prefab placeholder
+
+This file is a human-readable placeholder for Assets/Prefabs/Player.prefab.
+It is NOT a valid Unity prefab. Please open the project in Unity and create a
+Prefab at Assets/Prefabs/Player.prefab with the following components:
+
+- SpriteRenderer (assign Assets/Art/Characters/alpinator_idle.png)
+- Rigidbody2D (Body Type: Kinematic)
+- BoxCollider2D (size to fit sprite)
+- Child GameObject "Catcher" with BoxCollider2D (Is Trigger = true) and tag "PlayerCatcher"
+- PlayerController (script at Assets/Scripts/PlayerController.cs)
+
+After creating the prefab, drag it into the scene and position it at the bottom center.
