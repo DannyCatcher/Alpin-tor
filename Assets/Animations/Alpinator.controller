@@ -1,0 +1,19 @@
+Animator placeholder
+
+Create an Animator Controller at Assets/Animations/Alpinator.controller and add the following states:
+- Idle (use alpinator_idle frames, loop)
+- Walk (use alpinator_walk frames, loop)
+- Catch (use alpinator_catch frames, not loop)
+- Dizzy (use alpinator_dizzy frames, loop)
+
+Parameters:
+- Speed (float)
+- IsCatching (bool)
+- IsDizzy (bool)
+
+Transitions:
+- Idle <-> Walk controlled by Speed threshold
+- AnyState -> Catch when IsCatching true (exit to Idle when finished)
+- AnyState -> Dizzy when IsDizzy true
+
+Attach the Animator to the Player prefab and hook the AnimationClips.
