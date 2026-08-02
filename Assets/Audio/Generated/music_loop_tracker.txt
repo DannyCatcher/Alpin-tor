@@ -1,0 +1,7 @@
+; generated simple chiptune melody - export to OGG as music_loop.ogg
+; pattern: C-4 E-4 G-4 C-5 repeating
+; tempo 140
+C-4
+E-4
+G-4
+C-5
