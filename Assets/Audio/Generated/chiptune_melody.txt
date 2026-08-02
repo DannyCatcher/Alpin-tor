@@ -1,0 +1,16 @@
+; Simple tracker-style melody (pattern format) - use as reference in MilkyTracker/FamiTracker
+; Tempo: 140 BPM, 4 channels (simple)
+; Pattern 0
+C-4  v0  00 4C  00  00 00
+---  v0  00 00  00  00 00
+---  v0  00 00  00  00 00
+---  v0  00 00  00  00 00
+
+; Pattern 1 - repeat with variation
+E-4  v0  00 4C  00  00 00
+---  v0  00 00  00  00 00
+G-4  v0  00 4C  00  00 00
+---  v0  00 00  00  00 00
+
+; Simple percussion ideas: use noise channel or sample
+; Export as WAV/OGG when satisfied and place as Assets/Audio/music_loop.ogg
